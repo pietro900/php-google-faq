@@ -52,12 +52,25 @@
          <link rel="stylesheet" href="style.css">
      </head>
      <body>
-        <menu>
-            <div class="">
-                <a href="https://www.google.com/" ><img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png 2x"></a>
-                <a href="">Privacy e termini</a>
+        <header>
+            <div id="header-up">
+                <img id="brand-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" alt="google logo">
+                <span>Privacy & Terms</span>
             </div>
-        </menu>
+            <div id="header-low">
+                <div id="header-low-lx">
+                <ul>
+                    <li>Overview</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Technologies</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div id="header-low-rx">
+                <span>prova@gmail.com</span>
+            </div>
+        </header>
         <main>
             <div class="container">
                 <?php
@@ -132,6 +145,25 @@
         <title></title>
     </head>
     <body>
+        <header>
+            <div id="header-up">
+                <img id="brand-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" alt="google logo">
+                <span>Privacy & Terms</span>
+            </div>
+            <div id="header-low">
+                <div id="header-low-lx">
+                <ul>
+                    <li>Overview</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Technologies</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div id="header-low-rx">
+                <span>prova@gmail.com</span>
+            </div>
+        </header>
         <main>
             <div>
                 <?php
